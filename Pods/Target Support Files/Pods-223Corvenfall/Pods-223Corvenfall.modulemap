@@ -1,0 +1,6 @@
+framework module Pods_223Corvenfall {
+  umbrella header "Pods-223Corvenfall-umbrella.h"
+
+  export *
+  module * { export * }
+}
