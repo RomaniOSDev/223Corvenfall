@@ -7,7 +7,7 @@ workflows:
         vars:
           XCODE_WORKSPACE: "223Corvenfall.xcworkspace"
           XCODE_SCHEME: "223Corvenfall"
-          BUNDLE_ID: "com.arg.c3n09nw0rksh2p"
+          BUNDLE_ID: "com.ypm.c0rvenf8ll"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
