@@ -74,6 +74,13 @@
 		304236572FDAE7EC003E0977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042360D2FDAE7EC003E0977 /* ContentView.swift */; };
 		304236582FDAE7EC003E0977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304236132FDAE7EC003E0977 /* SceneDelegate.swift */; };
 		304236592FDAE7EC003E0977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304236142FDAE7EC003E0977 /* ViewController.swift */; };
+		371A42DB2FED1DE80051DB22 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 371A42DA2FED1DE80051DB22 /* Alamofire */; };
+		371A42DD2FED1E300051DB22 /* CorvenfallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371A42DC2FED1E190051DB22 /* CorvenfallManager.swift */; };
+		371A42DF2FED1E560051DB22 /* CorvenfallServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371A42DE2FED1E4B0051DB22 /* CorvenfallServices.swift */; };
+		371A42E12FED1E740051DB22 /* CorvenfallModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371A42E02FED1E630051DB22 /* CorvenfallModels.swift */; };
+		371A42E32FED1E910051DB22 /* CorvenfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371A42E22FED1E8A0051DB22 /* CorvenfallView.swift */; };
+		37302E082FED1F8E00CFA7F9 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 37302E072FED1F8E00CFA7F9 /* AppsFlyerLib-Static */; };
+		37302E0A2FED208000CFA7F9 /* CorvenfallMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37302E092FED207E00CFA7F9 /* CorvenfallMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +154,12 @@
 		304236112FDAE7EC003E0977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		304236132FDAE7EC003E0977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		304236142FDAE7EC003E0977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		371A42D52FED1DCF0051DB22 /* 223Corvenfall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 223Corvenfall.entitlements; sourceTree = "<group>"; };
+		371A42DC2FED1E190051DB22 /* CorvenfallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorvenfallManager.swift; sourceTree = "<group>"; };
+		371A42DE2FED1E4B0051DB22 /* CorvenfallServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorvenfallServices.swift; sourceTree = "<group>"; };
+		371A42E02FED1E630051DB22 /* CorvenfallModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorvenfallModels.swift; sourceTree = "<group>"; };
+		371A42E22FED1E8A0051DB22 /* CorvenfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorvenfallView.swift; sourceTree = "<group>"; };
+		37302E092FED207E00CFA7F9 /* CorvenfallMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorvenfallMainView.swift; sourceTree = "<group>"; };
 		E945D8141FD255718A56ECEE /* Pods-223Corvenfall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-223Corvenfall.debug.xcconfig"; path = "Target Support Files/Pods-223Corvenfall/Pods-223Corvenfall.debug.xcconfig"; sourceTree = "<group>"; };
 		F2B161FE464498F007C07641 /* Pods_223Corvenfall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_223Corvenfall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,6 +169,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371A42DB2FED1DE80051DB22 /* Alamofire in Frameworks */,
+				37302E082FED1F8E00CFA7F9 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +231,7 @@
 		304235C22FDAE7EC003E0977 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				371A42E02FED1E630051DB22 /* CorvenfallModels.swift */,
 				304235BE2FDAE7EC003E0977 /* AchievementDefinition.swift */,
 				304235BF2FDAE7EC003E0977 /* ProtectionTip.swift */,
 				304235C02FDAE7EC003E0977 /* UVHistoryEntry.swift */,
@@ -227,6 +243,8 @@
 		304235C72FDAE7EC003E0977 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				371A42DE2FED1E4B0051DB22 /* CorvenfallServices.swift */,
+				371A42DC2FED1E190051DB22 /* CorvenfallManager.swift */,
 				304235C32FDAE7EC003E0977 /* AchievementManager.swift */,
 				304235C42FDAE7EC003E0977 /* AppTabRouter.swift */,
 				304235C52FDAE7EC003E0977 /* SessionTracker.swift */,
@@ -405,6 +423,7 @@
 		304236092FDAE7EC003E0977 /* Privacy */ = {
 			isa = PBXGroup;
 			children = (
+				371A42E22FED1E8A0051DB22 /* CorvenfallView.swift */,
 				304236082FDAE7EC003E0977 /* PrivacyPolicyView.swift */,
 			);
 			path = Privacy;
@@ -417,6 +436,7 @@
 				304235FD2FDAE7EC003E0977 /* Components */,
 				304236072FDAE7EC003E0977 /* Design */,
 				304236092FDAE7EC003E0977 /* Privacy */,
+				37302E092FED207E00CFA7F9 /* CorvenfallMainView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -424,6 +444,7 @@
 		304236152FDAE7EC003E0977 /* 223Corvenfall */ = {
 			isa = PBXGroup;
 			children = (
+				371A42D52FED1DCF0051DB22 /* 223Corvenfall.entitlements */,
 				304235CE2FDAE7EC003E0977 /* Core */,
 				304235E72FDAE7EC003E0977 /* Features */,
 				304235E92FDAE7EC003E0977 /* Resources */,
@@ -485,6 +506,10 @@
 				Base,
 			);
 			mainGroup = 3042340F2FDAAD15003E0977;
+			packageReferences = (
+				371A42D92FED1DE80051DB22 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				37302E062FED1F8E00CFA7F9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = 304234192FDAAD15003E0977 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -548,11 +573,14 @@
 				304236222FDAE7EC003E0977 /* AppTabRouter.swift in Sources */,
 				304236232FDAE7EC003E0977 /* SessionTracker.swift in Sources */,
 				304236242FDAE7EC003E0977 /* SPFTimerManager.swift in Sources */,
+				371A42E32FED1E910051DB22 /* CorvenfallView.swift in Sources */,
 				304236252FDAE7EC003E0977 /* AppExternalLinks.swift in Sources */,
 				304236262FDAE7EC003E0977 /* FeedbackHelper.swift in Sources */,
 				304236272FDAE7EC003E0977 /* ShakeEffect.swift in Sources */,
 				304236282FDAE7EC003E0977 /* UVProtectionAdvice.swift in Sources */,
+				37302E0A2FED208000CFA7F9 /* CorvenfallMainView.swift in Sources */,
 				304236292FDAE7EC003E0977 /* UVSimulator.swift in Sources */,
+				371A42DF2FED1E560051DB22 /* CorvenfallServices.swift in Sources */,
 				3042362A2FDAE7EC003E0977 /* HistoryContainerView.swift in Sources */,
 				3042362B2FDAE7EC003E0977 /* HomeView.swift in Sources */,
 				3042362C2FDAE7EC003E0977 /* HomeViewModel.swift in Sources */,
@@ -566,6 +594,7 @@
 				304236342FDAE7EC003E0977 /* AddUVRecordSheet.swift in Sources */,
 				304236352FDAE7EC003E0977 /* UVExposureInsightsView.swift in Sources */,
 				304236362FDAE7EC003E0977 /* UVExposureInsightsViewModel.swift in Sources */,
+				371A42E12FED1E740051DB22 /* CorvenfallModels.swift in Sources */,
 				304236372FDAE7EC003E0977 /* AlertSettingsSheet.swift in Sources */,
 				304236382FDAE7EC003E0977 /* UVIndexMonitorView.swift in Sources */,
 				304236392FDAE7EC003E0977 /* UVIndexMonitorViewModel.swift in Sources */,
@@ -595,6 +624,7 @@
 				304236512FDAE7EC003E0977 /* AppPrimaryButton.swift in Sources */,
 				304236522FDAE7EC003E0977 /* AppScreenStyle.swift in Sources */,
 				304236532FDAE7EC003E0977 /* AppSectionHeader.swift in Sources */,
+				371A42DD2FED1E300051DB22 /* CorvenfallManager.swift in Sources */,
 				304236542FDAE7EC003E0977 /* CustomSegmentedControl.swift in Sources */,
 				304236552FDAE7EC003E0977 /* PrivacyPolicyView.swift in Sources */,
 				304236562FDAE7EC003E0977 /* AppDelegate.swift in Sources */,
@@ -632,8 +662,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 223Corvenfall/223Corvenfall.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 223Corvenfall/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Corvenfall;
@@ -650,7 +681,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ypm.c0rvenf8ll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -673,8 +704,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 223Corvenfall/223Corvenfall.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 223Corvenfall/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Corvenfall;
@@ -691,7 +723,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ypm.c0rvenf8ll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -849,6 +881,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		371A42D92FED1DE80051DB22 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+		37302E062FED1F8E00CFA7F9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.18.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		371A42DA2FED1DE80051DB22 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371A42D92FED1DE80051DB22 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		37302E072FED1F8E00CFA7F9 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37302E062FED1F8E00CFA7F9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 304234102FDAAD15003E0977 /* Project object */;
 }
